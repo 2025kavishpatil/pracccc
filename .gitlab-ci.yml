@@ -1,0 +1,11 @@
+image: alpine:latest
+
+stages:
+  - build
+
+build_job:
+  stage: build
+  script:
+    - echo "Starting sample build"
+    - ls -la
+    - echo "Build completed successfully"
